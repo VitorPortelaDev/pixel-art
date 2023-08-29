@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(45deg,red,rgb(127, 219, 255));
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#galeria{
+    width:800px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.205);
+    box-shadow: 0px 8px 50px 0px rgba(0, 0, 0, 0.15);
+    display:flex;
+    flex-wrap:wrap;
+}
+::-webkit-scrollbar{
+    width:10px
+}
+::-webkit-scrollbar-track{
+    background-color: aqua;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+
+}::-webkit-scrollbar-thumb:hover{
+    background-color: white;
+}
+
+.pixel{
+    width: 40px;
+    height: 40px;
+    border: 40px;
+}
+.azul{
+    background-color:darkgoldenrod;
+}
+.red{
+    background-color: black;
+}
